@@ -1,0 +1,35 @@
+/* Styles for the Dictaphone component */
+.dictaphone-container {
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    margin: 10px;
+    background-color: #f8f8f8; /* Background color */
+  }
+  
+  .dictaphone-container p {
+    margin-bottom: 10px;
+  }
+  
+  .dictaphone-container button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #3498db; /* Border color */
+    color: #3498db; /* Text color */
+    background-color: #fff; /* Background color */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 10px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .dictaphone-container button:hover {
+    background-color: #3498db; /* Hover background color */
+    color: #fff; /* Hover text color */
+    border-color: #3498db; /* Hover border color */
+  }
+  
