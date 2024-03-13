@@ -5,7 +5,7 @@ from openai import OpenAI
 app = Flask(__name__)
 CORS(app)
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="key")
 
 def preguntar(prompt):
     response = client.chat.completions.create(
